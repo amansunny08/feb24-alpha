@@ -24,8 +24,8 @@ jobs:
 
        - name: print msg
          run: | 
-             echo ${{ inputs.color}}
-             echo ${{ secrets.username}}
+             echo "color is ${{ inputs.color}}"
+             echo "username is ${{ secrets.username}}"
 
        - name: run python script
          run: python abc.py    
