@@ -11,3 +11,6 @@ jobs:
          run: |
             ls -la  
             pwd
+
+       - name: print msg
+         run: echo "Hello Alpha Job"     
