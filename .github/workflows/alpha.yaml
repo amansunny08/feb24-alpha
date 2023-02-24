@@ -13,4 +13,8 @@ jobs:
             pwd
 
        - name: print msg
-         run: echo "Hello Alpha Job"     
+         run: echo "Hello Alpha Job"
+
+       - name: run python script
+         run: python abc.py    
+               
