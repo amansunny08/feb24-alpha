@@ -1,0 +1,13 @@
+name: alpha job 
+on: workflow_call
+jobs:
+   alpha-first-job:
+     runs-on: ubuntu-latest
+     steps:
+       - name: chekout
+         uses: actions/checkout@v3
+
+       - name: list files
+         run: |
+            ls -la  
+            pwd
